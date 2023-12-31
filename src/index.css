@@ -1,0 +1,51 @@
+:root{
+    --color-1:#ffcf61ff;
+    --color-2:#feffff;
+    --color-3:#feeecc;
+    --color-4:#74563e;
+    /* texts */
+    --black:#242424;
+    --white:#feffff;
+}
+
+/* classes de background */
+
+.bg-1{
+    background-color: var(--color-1) !important;
+    color: var(--black) !important;
+    border-style: none !important ;
+}
+.bg-1:hover{
+    background-color: rgb(255, 215, 123) !important;
+}
+.bg-2{
+    background-color: var(--color-2) !important;
+    color: var(--black) !important;
+    border-style: none !important ;
+}
+.bg-3{
+    background-color: var(--color-3) !important;
+    color: var(--black) !important;
+    border-style: none !important ;
+}
+.bg-4{
+    background-color: var(--color-4) !important;
+    color: var(--white) !important;
+    border-style: none !important ;
+}
+
+
+/* barra de rolagem */
+
+body::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--color-3);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--color-4);
+    border-radius: 20px;
+  }

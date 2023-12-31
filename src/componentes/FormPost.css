@@ -1,0 +1,29 @@
+.text-ballon{
+    background-color: var(--color-5);
+    color: var(--color-1);
+    padding: 4px 8px;
+    font-size: large;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    margin-top: 32px;
+}
+.inputs{
+    max-width: 90%;
+    margin-right: 32px;
+}
+.text-contain{
+    padding: 32px !important;
+}
+.text-contain > div > img{
+    max-width: 90%;
+}
+.modal-title{
+    margin: auto;
+}
+.text-titles img{
+    max-width: 32px !important;
+    margin-right: 16px;
+}
+.buttons{
+    width: 180px;
+}
